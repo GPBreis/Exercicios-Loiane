@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Exerc07 {
 
-    public static void main(String[] args) {
-
+    public void calculaAreaQuadrado() {
         Scanner scan = new Scanner(System.in);
 
         double area, lado, dobro;
@@ -17,8 +16,6 @@ public class Exerc07 {
 
         dobro = area * 2;
 
-        System.out.printf("A área do quadrado é %s e o dobro da área é %s", area, dobro);
-
-
+        System.out.printf("A área do quadrado é %s e o dobro da área é %s\n", area, dobro);
     }
 }

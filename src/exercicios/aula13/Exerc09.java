@@ -3,7 +3,7 @@ package exercicios.aula13;
 import java.util.Scanner;
 
 public class Exerc09 {
-    public static void main(String[] args) {
+    public void fahrenheitParaCelcius1(){
         Scanner scan = new Scanner(System.in);
 
         double grauF, grauC;
@@ -13,6 +13,6 @@ public class Exerc09 {
 
         grauC = 5 * ((grauF - 32) / 9);
 
-        System.out.printf("%sºF é equivalente a %sºC", grauF, grauC);
+        System.out.printf("%sºF é equivalente a %sºC\n", grauF, grauC);
     }
 }

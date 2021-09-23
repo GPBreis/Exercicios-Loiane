@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exerc03 {
 
-    public static void main(String[] args) {
+    public void somar() {
         Scanner scan = new Scanner(System.in);
 
         int num1, num2, res;
@@ -17,6 +17,6 @@ public class Exerc03 {
 
         res = num1 + num2;
 
-        System.out.printf("A soma de %s e %s é %s", num1, num2, res);
+        System.out.printf("A soma de %s e %s é %s\n", num1, num2, res);
     }
 }

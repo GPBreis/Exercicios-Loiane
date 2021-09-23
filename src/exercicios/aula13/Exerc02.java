@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Exerc02 {
 
-    public static void main (String[] args) {
-
+    public void retornaNumero(){
         Scanner scan = new Scanner(System.in);
+        int numero;
 
         System.out.print("Informe um número: ");
 
-        int numero = scan.nextInt();
+        numero = scan.nextInt();
 
         System.out.println("O número informado foi: " + numero);
     }

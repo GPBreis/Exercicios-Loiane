@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class Exerc06 {
 
-    public static void main(String[] args) {
-
+    public void calculaAreaCirculo() {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Informe o raio do círculo");
 
-        double area, raio, pi;
+        double raio, area, pi;
 
         raio = scan.nextDouble();
 
@@ -19,6 +18,5 @@ public class Exerc06 {
         area = pi * (raio * raio);
 
         System.out.println("A área do círculo é: " + area);
-
     }
 }

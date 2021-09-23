@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Exerc05 {
 
-    public static void main(String[] args) {
-
+    public void metroParaCm() {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Informe quantos quantos metros(m) deseja converter para centimetros(cm)");
@@ -14,7 +13,6 @@ public class Exerc05 {
         metros = scan.nextDouble();
         centimetros = metros * 100;
 
-        System.out.printf("%s(m) é equivalente a %s(cm)", metros, centimetros);
-
+        System.out.printf("%s(m) é equivalente a %s(cm)\n", metros, centimetros);
     }
 }

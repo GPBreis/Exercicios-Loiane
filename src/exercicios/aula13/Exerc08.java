@@ -3,7 +3,7 @@ package exercicios.aula13;
 import java.util.Scanner;
 
 public class Exerc08 {
-    public static void main(String[] args) {
+    public void calculaSalario() {
         Scanner scan = new Scanner(System.in);
 
         double valorHora, qtHora, valorMes;
@@ -16,6 +16,5 @@ public class Exerc08 {
         valorMes = valorHora * qtHora;
 
         System.out.println("Seu salário mensal é de R$ " + valorMes);
-
     }
 }

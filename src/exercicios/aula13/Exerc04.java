@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Exerc04 {
 
-    public static void main(String[] args) {
-
+    public void calcularMedia(){
         Scanner scan = new Scanner(System.in);
 
         double nota1, nota2, nota3, nota4, media;

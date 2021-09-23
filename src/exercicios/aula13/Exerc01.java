@@ -1,7 +1,9 @@
 package exercicios.aula13;
 
 public class Exerc01 {
-    public static void main(String[] args) {
+
+    public void olaMundo() {
         System.out.println("Ola Mundo!");
     }
+
 }
