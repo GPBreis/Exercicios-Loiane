@@ -29,9 +29,9 @@ public class Main {
         exc08.calculaSalario();
 
         Exerc09 exc09 = new Exerc09();
-        exc09.fahrenheitParaCelcius1();
+        exc09.fahrenheitParaCelcius();
 
         Exerc10 exc10 = new Exerc10();
-        exc10.fahrenheitParaCelcius2();
+        exc10.celsiusParaFahrenheit();
     }
 }

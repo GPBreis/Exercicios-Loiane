@@ -3,7 +3,7 @@ package exercicios.aula13;
 import java.util.Scanner;
 
 public class Exerc09 {
-    public void fahrenheitParaCelcius1(){
+    public void fahrenheitParaCelcius(){
         Scanner scan = new Scanner(System.in);
 
         double grauF, grauC;
