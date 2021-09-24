@@ -9,11 +9,11 @@ public class Exerc10 {
         double grauC, grauF;
 
         System.out.print("Informe a temperatura em Celsius ");
-        grauF = scan.nextDouble();
+        grauC = scan.nextDouble();
 
-        grauC = (grauF * 1.8) + 32;
+        grauF = (grauC * 1.8) + 32;
 
-        System.out.printf("%sºC é equivalente a %sºF\n", grauF, grauC);
+        System.out.printf("%sºC é equivalente a %sºF\n", grauC, grauF);
     }
 
 
