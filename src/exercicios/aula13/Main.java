@@ -47,6 +47,14 @@ public class Main {
         //exc14.verificaExcesso();
 
         Exerc15 exc15 = new Exerc15();
-        exc15.calculaSalario();
+        //exc15.calculaSalario();
+
+        Exerc16 exc16 = new Exerc16();
+        //exc16.calculaQtLatas();
+
+        Exerc17 exc17 = new Exerc17();
+        exc17.calculaQtLatas();
+        exc17.calculaQtGaloes();
+
     }
 }
