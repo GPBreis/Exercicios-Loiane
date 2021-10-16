@@ -53,8 +53,11 @@ public class Main {
         //exc16.calculaQtLatas();
 
         Exerc17 exc17 = new Exerc17();
-        exc17.calculaQtLatas();
-        exc17.calculaQtGaloes();
+        //exc17.calculaQtLatas();
+        //exc17.calculaQtGaloes();
+
+        Exerc18 exc18 = new Exerc18();
+        exc18.calculaTempoDownload();
 
     }
 }
